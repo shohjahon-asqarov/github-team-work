@@ -1,11 +1,9 @@
 import React from 'react'
 
-const dilsora = () => {
+const Dilsora = () => {
   return (
-    <div>
-      <h1>dilsora</h1>
-    </div>
+    <div>Dilsora</div>
   )
 }
 
-export default dilsora
+export default Dilsora
