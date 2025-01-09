@@ -1,16 +1,30 @@
 import React from 'react'
-import Test from './components/Test'
-import Abdulaziz from './components/Abdulaziz'
-import Kamola from './components/Kamola'
-import Dilsora from './components/dilsora'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Category from './components/Category'
+import Animals from './components/Animals'
+import Toys from './components/Toys'
+import Story from './components/Story'
+import About from './components/About'
+import NewsLetter from './components/NewsLetter'
+import Gallery from './components/Gallery'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <div>
-      <Test />
-      <Abdulaziz />
-      <Kamola />
-      <Dilsora />
+      <Header />
+      <main>
+        <Hero />
+        <Category />
+        <Animals />
+        <Toys />
+        <Story />
+        <About />
+        <NewsLetter />
+        <Gallery />
+      </main>
+      <Footer />
     </div>
   )
 }
